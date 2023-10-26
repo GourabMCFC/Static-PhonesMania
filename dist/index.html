@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones-Mania</title>
+    
+  <link rel="stylesheet" href="./assets/index-c2ba9187.css">
+</head>
+
+<body class="bg-purple-700">
+    <header>
+        <nav class="w-screen bg-fuchsia-300 md:flex md:items-center md:justify-around">
+            <div class="flex justify-between p-4 flex-wrap text-4xl">
+                <p class="font-dance">Phones-Mania</p>
+                <p class="font-serif md:hidden" onclick="toggleMenu()">&equiv;</p>
+            </div>
+            <div id="menu" class="hidden md:block">
+                <ul
+                    class="flex flex-col md:flex-row font-satisfy bg-fuchsia-400 md:bg-inherit items-center gap-y-3 md:gap-x-3">
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Catalogue</a></li>
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">About</a></li>
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <section class="container md:flex text-white bg-slate-900 p-4">
+        <div class="pt-40 md:w-1/2 p-6 space-y-8 font-satisfy">
+            <h1 class="font-bold text-6xl capitalize">The Best Phones in Town</h1>
+            <p class="text-2xl px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolore
+                necessitatibus
+                officiis, quo et maiores culpa! Aperiam, sunt, ducimus id accusantium nihil consequatur quas obcaecati
+                quod laboriosam possimus nemo doloremque?</p>
+            <div class="flex flex-wrap gap-8 md:ml-4 justify-center md:justify-start">
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="md:w-1/2">
+            <!-- <p class="inline bg-blue-600">Hello</p> -->
+            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/35685/business-man-mobile-phone-clipart-md.png" alt="Man Talking On Phone" class="md:min-h-full md:max-w-full object-cover">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
