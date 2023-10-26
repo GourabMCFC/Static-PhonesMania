@@ -1,0 +1,1 @@
+const toggleMenu = () => document.getElementById("menu").classList.toggle("hidden");
