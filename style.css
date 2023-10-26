@@ -10,4 +10,7 @@
     .menuItemDesktop{
         @apply md:hover:bg-inherit md:hover:underline;
     }
+    .btn{
+        @apply bg-fuchsia-600 text-2xl md:text-3xl p-2 md:p-3 rounded-xl uppercase
+    }
 }

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+
+<body class="bg-purple-700">
     <header>
         <nav class="w-screen bg-fuchsia-300 md:flex md:items-center md:justify-around">
             <div class="flex justify-between p-4 flex-wrap">
@@ -14,7 +16,8 @@
                 <p class="font-serif text-4xl md:hidden" onclick="toggleMenu()">&equiv;</p>
             </div>
             <div id="menu" class="hidden md:block">
-                <ul class="flex flex-col md:flex-row font-satisfy bg-fuchsia-400 md:bg-inherit items-center gap-y-3 md:gap-x-3">
+                <ul
+                    class="flex flex-col md:flex-row font-satisfy bg-fuchsia-400 md:bg-inherit items-center gap-y-3 md:gap-x-3">
                     <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
                     <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
                     <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
@@ -23,6 +26,19 @@
             </div>
         </nav>
     </header>
+    <section class="container text-white bg-slate-700">
+        <div class="pt-56 p-6 space-y-8 font-satisfy bg-slate-900">
+            <h1 class="font-bold text-6xl capitalize">The Best Phones in Town</h1>
+            <p class="text-2xl px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolore necessitatibus
+                officiis, quo et maiores culpa! Aperiam, sunt, ducimus id accusantium nihil consequatur quas obcaecati
+                quod laboriosam possimus nemo doloremque?</p>
+            <div class="flex flex-wrap gap-8 md:ml-4 justify-center md:justify-start">
+                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="btn">Contact</a>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
+
 </html>
