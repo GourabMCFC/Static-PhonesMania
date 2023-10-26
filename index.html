@@ -8,17 +8,17 @@
 </head>
 <body>
     <header>
-        <nav class="w-screen bg-fuchsia-300">
+        <nav class="w-screen bg-fuchsia-300 md:flex md:items-center md:justify-around">
             <div class="flex justify-between p-4 flex-wrap">
                 <p class="font-dance text-4xl">Phones-Mania</p>
-                <p class="font-serif text-4xl" onclick="toggleMenu()">&equiv;</p>
+                <p class="font-serif text-4xl md:hidden" onclick="toggleMenu()">&equiv;</p>
             </div>
-            <div id="menu" class="hidden">
-                <ul class="flex flex-col font-satisfy bg-fuchsia-400 items-center w-screen space-y-3">
-                    <li class="menuItemMobile"><a href="#">Home</a></li>
-                    <li class="menuItemMobile"><a href="#">Home</a></li>
-                    <li class="menuItemMobile"><a href="#">Home</a></li>
-                    <li class="menuItemMobile"><a href="#">Home</a></li>
+            <div id="menu" class="hidden md:block">
+                <ul class="flex flex-col md:flex-row font-satisfy bg-fuchsia-400 md:bg-inherit items-center gap-y-3 md:gap-x-3">
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
+                    <li class="menuItemMobile md:menuItemDesktop"><a href="#">Home</a></li>
                 </ul>
             </div>
         </nav>

@@ -7,4 +7,7 @@
     .menuItemMobile{
         @apply hover:bg-fuchsia-500 w-full flex justify-center p-2 text-2xl;
     }
+    .menuItemDesktop{
+        @apply md:hover:bg-inherit md:hover:underline;
+    }
 }
